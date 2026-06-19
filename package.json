@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev:client": "npm run dev --prefix client",
-    "dev:server": "npm run dev --prefix server"
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm install --prefix client && npm run build --prefix client"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^6.0.2",
